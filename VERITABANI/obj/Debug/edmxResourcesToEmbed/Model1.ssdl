@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ASPNETModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ASPNETModelStoreContainer">
+    <EntitySet Name="Kullanici" EntityType="ASPNETModel.Store.Kullanici" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Kullanici">
+    <Key>
+      <PropertyRef Name="Kullanici_id" />
+    </Key>
+    <Property Name="Kullanici_adi" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Kullanici_soyadi" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Kullanici_parola" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Kullanici_id" Type="int" Nullable="false" />
+    <Property Name="Kullanici_yas" Type="int" />
+    <Property Name="Kullanici_dogum_yeri" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kullanici_telefon" Type="nvarchar" MaxLength="15" />
+    <Property Name="Kullanici_email" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+</Schema>

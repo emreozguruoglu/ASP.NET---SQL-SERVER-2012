@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ASPNETModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="Kullanici">
+      <EntityTypeMapping TypeName="ASPNETModel.Kullanici">
+        <MappingFragment StoreEntitySet="Kullanici">
+          <ScalarProperty Name="Kullanici_email" ColumnName="Kullanici_email" />
+          <ScalarProperty Name="Kullanici_telefon" ColumnName="Kullanici_telefon" />
+          <ScalarProperty Name="Kullanici_dogum_yeri" ColumnName="Kullanici_dogum_yeri" />
+          <ScalarProperty Name="Kullanici_yas" ColumnName="Kullanici_yas" />
+          <ScalarProperty Name="Kullanici_id" ColumnName="Kullanici_id" />
+          <ScalarProperty Name="Kullanici_parola" ColumnName="Kullanici_parola" />
+          <ScalarProperty Name="Kullanici_soyadi" ColumnName="Kullanici_soyadi" />
+          <ScalarProperty Name="Kullanici_adi" ColumnName="Kullanici_adi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
